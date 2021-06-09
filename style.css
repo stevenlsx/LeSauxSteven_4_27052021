@@ -366,7 +366,20 @@ a:hover {
   position: relative;
   z-index: 2;
 }
+.text-center-p{
+  font-size: 2.3rem;
+  color: rgb(66, 68, 92);
+  padding-bottom: 12px;
 
+}
+blockquote p{
+  font-style: italic;
+    font-size: 2.0rem;
+    color: rgb(0, 0, 0);
+}
+figcaption{
+  font-size: 1.9rem;
+}
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -910,6 +923,9 @@ a{
 }
 
 @media (max-width: 767px) {
+  ul{
+    list-style: none;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1046,17 +1062,14 @@ a{
     width: 180px;
     height: 320px;
   }
+  .bloc-mob-center-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .bloc-mob-center-text {
-    text-align: center;
   }
 }
