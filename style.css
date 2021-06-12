@@ -16,6 +16,12 @@ ul{
   list-style: none;
   margin-left: -40px;
 }
+.navbar-1a ul{
+  font-size: 2.4rem;
+}
+.navbar-1 ul{
+  font-size: 1.5rem
+}
 a:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -223,7 +229,8 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-  color: #000000
+  color: #000000;
+  text-decoration: none;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -277,6 +284,7 @@ a:hover {
 
 #bloc-1-hero h1 {
   font-size: 32px;
+  font-size: 6rem;
 }
 
 .navbar {
@@ -287,16 +295,21 @@ a:hover {
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
-  font-size: 25px;
   font-weight: normal;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 15px;
 }
-
+.navbar-branda{
+  height: auto;
+  padding: 3px 15px;
+  font-weight: normal;
+  font-weight: 600;
+  line-height: 65px
+}
 .navbar-brand img {
-  max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
+  margin-bottom: -6px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -307,17 +320,19 @@ a:hover {
   margin: 0;
 }
 
-.navbar .nav {
-  padding-top: 2px;
-  margin-right: -16px;
-  float: right;
-  z-index: 1;
+.navbara .nav {
+  margin-right: 42px;
 }
-
+.navbar .nav{
+  margin-right: 128px;
+  padding-bottom: 42px;
+}
+.navbar a{
+  padding-right: 37px
+}
 .nav > li {
-  float: left;
   margin-top: 4px;
-  font-size: 16px;
+  display: inline;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -354,10 +369,13 @@ a:hover {
   z-index: 2;
 }
 .text-center-p{
-  font-size: 2.3rem;
+  font-size: 3.2rem;
   color: rgb(66, 68, 92);
   padding-bottom: 12px;
-
+}
+.text-center {
+  text-align: center;
+  font-size: 2rem;
 }
 blockquote p{
   font-style: italic;
@@ -521,8 +539,23 @@ button {
 }
 
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
-  box-shadow: none;
+  display: block;
+  width: 48%;
+  height: 111px;
+  padding: 4px 12px;
+  margin-bottom: 26px;
+  margin-left: 250px;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  color: #b13d22;
+  background-color: #fff;
+  border: 1px solid #a01111;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 26%);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 .scrollToTop {
@@ -668,13 +701,18 @@ a {
   font-family: "helvetica";
   font-weight: 400;
 }
-
+label{
+  display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-left: 250px;
+}
 .container {
   max-width: 1000px;
 }
 
 .hero-bloc-text {
-  font-size: 38px;
+  font-size: 2rem;
 }
 
 .hero-bloc-text-sub {
@@ -710,7 +748,7 @@ p {
   color: black !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
-  font-size: 16px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -720,9 +758,10 @@ p {
 }
 .fa:before{
   color: #000000;
+  font-size: 3.5rem;
 }
 h2 {
-  font-size: 22px;
+  font-size: 2rem;
   line-height: 1.4em;
 }
 
@@ -794,6 +833,7 @@ h4 {
 
 .tc-white {
   color: #000000 !important;
+  font-size: 2.3rem;
 }
 .tc-whitea{
   background-color: #F96B6B;
@@ -805,7 +845,20 @@ h4 {
   color: #000000 !important;
   box-shadow: 1px 1px 2px black;
 }
-
+.btn-atomic-tangerinea{
+  font-size: 1.4rem;
+    background: #F96B6B;
+    color: #000000 !important;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin-left: 400px;
+}
+.col-sm-6a p{
+  margin-top: 71px;
+  margin-left: 250px;
+  font-size: 1.3rem;
+  font-style: italic;
+}
 .btn-atomic-tangerine:hover {
   background: #DFC323 !important;
   color: #700002 !important;
@@ -853,7 +906,10 @@ a{
 .text-center.white {
   padding-bottom: 8px;
   padding-top: 10px;
-  font-size: 1.55rem;
+  font-size: 2.05rem;
+}
+.col-sm-4a h3{
+  font-size: 2.1rem;
 }
 .col-sm-4a{
   padding-left: 101px;
@@ -861,6 +917,7 @@ a{
   width: 33%;
   flex-wrap: nowrap;
   color: black;
+  font-size: 1.9rem;
 }
 .col-sm-4b{
   padding-left: 126px;
